@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <!-- This link below imports my style sheet for this web page -->
+    <link rel="stylesheet" href="global.css">
+    <!-- This link below imports the google fonts used for this page -->
+    <link href="https://fonts.googleapis.com/css?family=Lato:400,700&display=swap" rel="stylesheet">
+    <!-- This script below allows the use of the icons for this page -->
+    <script src="https://kit.fontawesome.com/956b99a6cf.js"></script>
+    <title>Yahoo!</title>
+</head>
+<body>
+    <main>
+        <!-- Left side of the page -->
+        <div class="widgets_container">
+            <div id="weather">
+                <div id="weather_left_group">
+                    <img id="weather_icon" src="sun.png" alt="weather icon" /> 
+                    <span>72°</span>
+                </div>
+                <span id="city">San Francisco, CA</span> 
+            </div>
+            <div id="yahoo_search">
+                <img id="yahoo_logo" src="yahoo_logo.png" alt="yahoo logo">
+                <form class="search_form" action="https://search.yahoo.com/search" method="GET">
+                    <input id="search" type="text" name="p" autofocus/>
+                    <div id="buttons">
+                        <button type="submit"> <i class="fas fa-search"></i> </button>
+                    </div>
+                </form>
+            </div>
+            <div class="stock" id="first_stock">
+                <span class="stock_symbol"> AAPL </span>
+                <span class="stock_nums">
+                    <span class="stock_price"> 443.55 </span>  
+                    <span class="stock_change"> -5.30 </span>
+                </span>
+            </div>
+            <div class="stock" id="second_stock">
+                <span class="stock_symbol"> YHOO </span>
+                <span class="stock_nums">
+                    <span class="stock_price"> 20.77 </span>  
+                    <span class="stock_change"> -0.15 </span>
+                </span>
+            </div>
+            <div class="notification" id="first_notification">
+                <i class="fas fa-exclamation-circle"></i>   
+                <span class="notification_description">
+                    Wymeia has a soccer game tonight at 7pm! Don't be late this time.
+                </span>
+            </div>
+            <div class="notification" id="second_notification">
+                <i class="fas fa-exclamation-circle"></i>   
+                <span class="notification_description">
+                    Stop by the pharmacy!
+                </span>
+            </div>
+        </div>
+        <!-- Right side of page -->
+        <div id="side_bar">
+            <ul>
+                <li id="latest_news"> LATEST NEWS </li>
+                <div id="main_article">
+                    <li class="article_title"> Kanye West changing his not so famous last name to Kardashian court document says. </li>
+                    <li class="publisher"> <h6>Associated Press</h6> </li>
+                </div>
+                <div id="sub_articles">
+                    <li class="article_title">Gunfire, wreck kill 3 on Vegas strip</li>
+                    <li class="publisher"> <h6>Associated Press</h6> </li>
+
+                    <li class="article_title">Italian beach crowned best in world by tourist in America</li>
+                    <li class="publisher"> <h6>Reuters</h6> </li>
+
+                    <li class="article_title">From the combine: 49ers ready to see more from 2012 draft class</li>
+                    <li class="publisher"> <h6>Shutdown Corner</h6> </li>
+
+                    <li class="article_title">James Harden, the Rockets trade, and what the Thunder lost</li>
+                    <li class="publisher"> <h6>SB Nation</h6> </li>
+
+                    <li class="article_title">Obama weighsin on gay marriage case</li>
+                    <li class="publisher"> <h6>Associated Press</h6> </li>
+
+                    <li class="article_title">Stricter gun laws alone won't stop America's urban violence</li>
+                    <li class="publisher"><h6>Christian Science Monitor</h6> </li>
+
+                    <li class="article_title">Royal Penguin found stranded on New Zealand beach</li>
+                    <li class="publisher"> <h6>Associated Press</h6> </li>
+
+                    <li class="article_title">Dallas police: Josh Brent was speeding at least 110 mph before fatal incident</li>
+                    <li class="publisher"> <h6>Shutdown Corner</h6> </li>
+
+                    <li class="article_title">Why PacMan got knocked out</li>
+                    <li class="publisher"> <h6>Boxing</h6> </li>
+
+                    <li class="article_title">Umenyiora engaged to Miss Universe</li>
+                    <li class="publisher"> <h6>Shutdown Corner</h6> </li>
+                </div>
+            </ul>
+            <!-- Furthest right side of the page -->
+            <div id="menu_bar">
+                <ul class="icons">
+                    <li> <img id="profile_pic" src="profile_pic.png" alt="me"> </li>
+                    <li> <i id="search_icon" class="fas fa-search"></i> </li>
+                    <li> <i id="mail_icon" class="fas fa-envelope"></i> </li>
+                    <li> <i id="news_icon" class="fas fa-newspaper"> </i></li>
+                    <li> <i id="chart_icon" class="fas fa-chart-line"></i> </li>
+                    <li> <i id="sports_icon" class="fas fa-basketball-ball"></i> </li>
+                    <li> <i id="film_icon" class="fas fa-film"></i> </li>
+                    <li> <i id="stars_icon" class="fas fa-star"></i> </li>
+                    <li> <i id="info_icon" class="fas fa-info-circle"></i> </li>
+                    <li> <i id="cars_icon" class="fas fa-car"></i> </li>
+                    <li> <i id="shopping_icon" class="fas fa-shopping-bag"></i> </li>
+                    <li> <i id="travel_icon" class="fas fa-plane"></i> </li>
+                    <li> <i id="health_icon" class="fas fa-heartbeat"></i> </li>
+                    <li> <i id="documents_icon" class="fas fa-briefcase"></i> </li>
+                </ul>
+                <ul class="settings">
+                    <li> <i id="settings_icon" class="fas fa-cog"></i> </li>
+                </ul>
+            </div>
+        </div>
+    </main>
+</body>
+</html>

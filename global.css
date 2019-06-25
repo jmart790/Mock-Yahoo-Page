@@ -1,0 +1,241 @@
+* {
+    margin: unset; 
+    padding: unset;
+}
+body {
+    width: 1580px;
+    height: 920px;
+    background-image: url("kanye_west.jpg");
+    background-repeat: no-repeat;
+    background-position-y: -105px;
+    background-position-x: -250px;
+    background-size: 2000px;
+    background-color: white;
+    font-family: 'Lato', sans-serif;
+}
+main {
+    display: flex;
+}
+
+/* The left side of the page */
+.widgets_container {
+    width: 620px;
+    height: 400px;
+    margin-top: 7%;
+    color: #C59FCF;
+}
+.widgets_container div {
+    display: flex;
+    align-items: center;
+    padding: 14px;
+}
+#weather {
+    width: 270px;
+    display: flex;
+    justify-content: space-around;
+    padding: 8px;
+    background-color: #873D9E;
+}
+#weather_left_group {
+    padding: initial;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#weather_icon {
+    width: 40px;
+    height: auto;
+    padding-right: 10px;
+    padding-left: 10px;
+}
+#weather_left_group span {
+    font-size: 1.5rem;
+}
+#city, .notification_description {
+    font-size: .8rem;
+}
+
+#yahoo_search {
+    background-color: #702987;  
+    justify-content: space-evenly;
+    padding: 0 22px;
+}
+#yahoo_search #yahoo_logo {
+    height: 65px;
+    width: auto;
+}
+.search_form {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#search {
+    width: 350px;
+    height: 40px;
+    font-size: 1rem;
+    padding-left: 10px;
+}
+button {
+    background-color: transparent;
+    border: none;
+    font-size: 1.5rem;
+    color: #C59FCF;
+    cursor: pointer;
+}
+button:hover {
+    color: rgb(236, 224, 240);
+}
+.stock {
+    width: 320px;
+}
+#first_stock {
+    background-color: #AA66C1;
+}
+#second_stock {
+    background-color: #9E58B7;
+}
+.stock_nums {
+    display: flex; 
+    justify-content: center;
+}
+.stock_price {
+    padding-right: 15px;
+}
+.stock_symbol {
+    font-size: 1.4rem;
+    padding-left: 25px;
+    padding-right: 100px;
+}
+.stock_change, .stock_symbol {
+    font-weight: 700;
+}
+.notification i {
+    font-size: 1.5rem;
+    padding-left: 24px;
+    padding-right: 16px;
+}
+#first_notification {
+    width: 300px;
+    background-color: #873D9E;
+}
+#second_notification {
+    width: 240px;
+    background-color: #9E58B7;
+}
+
+/* The right side of the page */
+#side_bar {
+    width: 390px;
+    height: -webkit-fill-available;
+    background-color: #ffffff;
+    margin-left: auto;
+    display: flex;
+    color: #772A8E;
+    
+}
+ul {
+    margin: 30px;
+}
+ul li {
+    list-style-type: none;
+}
+#main_article .article_title {
+    font-size: 1.8rem;
+    font-weight: bold;
+}
+#main_article .publisher {
+    padding-bottom: 55px;
+}
+#latest_news {
+    font-size: .7rem;
+    font-weight: bold;
+    padding-bottom: 55px;
+}
+#sub_articles {
+    padding-left: 26px;
+}
+#sub_articles .article_title {
+    list-style-type: disc;
+    font-size: .85rem;
+    font-weight: bold;
+}
+.publisher {
+    color: #CCAED6;
+    padding-bottom: 8px;
+}
+#menu_bar { 
+    width: 50px;
+    height: inherit;
+    background-color: #FDF2FF;
+    margin-left: auto;
+    padding: 8px;
+    display: block;
+    position: relative;
+}
+.icons {
+    margin: 5px;
+    text-align: center;
+    padding-top: 22px;
+}
+.settings {
+    position: absolute;
+    bottom: 20px;
+    right: 8px;
+    margin: 5px;
+}
+.icons img, .icons i {
+    padding-bottom: 10px;   
+}
+.icons i, .settings i {
+    font-size: 1.2rem;
+    cursor: pointer;
+}
+.icons i:hover, .settings i:hover, .icons #profile_pic:hover {
+    transform: scale(1.5);
+    transition: .3s;
+    text-shadow: 2px 2px rgba(0, 0, 0, 0.185);
+}
+.icons #profile_pic {
+    width: 20px;
+    border-radius: 2px;
+    cursor: pointer;
+}
+.icons #search_icon {
+    color: #A46FB5;
+}
+.icons #mail_icon {
+    color: #7129A1;
+}
+.icons #news_icon {
+    color: #3B15DF;
+}
+.icons #chart_icon{
+    color: #0891D3;
+}
+.icons #sports_icon {
+    color: #FF6800;
+}
+.icons #stars_icon {
+    color: #FC2288;
+}
+.icons #info_icon {
+    color: #7A1CF9;
+}
+.icon #cars_icon {
+    color: #5E09CB;
+}
+.icons #shopping_icon {
+    color: #FE7E00;
+}
+.icons #travel_icon {
+    color: #00B7FF;
+}
+.icons #health_icon {
+    color: #FF2C00;
+}
+.icons #documents_icon {
+    color: #5A64FF;
+}
+.settings #settings_icon {
+    color: #D7BAE0;
+}
